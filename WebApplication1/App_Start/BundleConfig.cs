@@ -30,8 +30,6 @@ namespace WebApplication1
                       "~/Content/site.css",
                       "~/Content/DraggablePanels.css"));
 
-            //TODO: add doubly-linked-list.js
-
         }
     }
 }
