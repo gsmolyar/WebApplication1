@@ -3,16 +3,42 @@ Entities:
 	Email Attachments (document repository - MS-Office, images, PDFs, etc)
 	Websites
 	Conversations
-  Interviews
-  Applications
-  Job Openings
-  Recruiters
-  Companies
+  	Interviews
+  	Applications
+  	Job Openings
+  	People (Contacts, References, Recruiters, Interviewers, etc)
+  	Companies
 	Offers
 	Job (end goal)
 
-Process:
+Job Search Process:
 	Workflow consisting of steps and substeps (multiple levels of steps)
 	Each step contains (refers to) one or more entities which can be marked as "crucial" for the step
 	Traversal of crucial steps can provide a big picture view of job search process
 	Process has states: Initial, 1st Interview, 2nd Interview, ... Nth Interview, Offer, Negotiation, Acceptance of position
+	No two job searches are the same
+
+
+Entity Details (Logical Schema):
+	Emails (Sent, Received); 
+		Comments: can serialization of emails be automated to extract the data elements?
+		Elements
+			To
+			From
+			Subject
+			Body
+	
+	Email Attachments (document repository - MS-Office, images, PDFs, etc)
+	
+	Websites
+		URL
+		Login Info - UID, Pwd
+	
+	Conversations
+  	Interviews
+  	Applications
+  	Job Openings
+  	People (Contacts, References, Recruiters, Interviewers, etc)
+  	Companies
+	Offers
+	Job (end goal)
