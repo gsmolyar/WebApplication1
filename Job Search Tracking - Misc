@@ -1,11 +1,18 @@
-Emails
-  Sent
-  Received
-Websites
-Conversations
-Interviews
-Applications
-Job Openings
-Recruiters
-Companies
-???
+Entities:
+	Emails (Sent, Received)
+	Email Attachments (document repository - MS-Office, images, PDFs, etc)
+	Websites
+	Conversations
+  Interviews
+  Applications
+  Job Openings
+  Recruiters
+  Companies
+	Offers
+	Job (end goal)
+
+Process:
+	Workflow consisting of steps and substeps (multiple levels of steps)
+	Each step contains (refers to) one or more entities which can be marked as "crucial" for the step
+	Traversal of crucial steps can provide a big picture view of job search process
+	Process has states: Initial, 1st Interview, 2nd Interview, ... Nth Interview, Offer, Negotiation, Acceptance of position
