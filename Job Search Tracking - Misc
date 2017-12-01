@@ -1,3 +1,7 @@
+Concepts:
+	Wheel model - Job is the hub; other objects are spokes
+	Star model - Job is the center; other objects are star's endpoints
+	
 Entities:
 	Emails (Sent, Received)
 	Email Attachments (document repository - MS-Office, images, PDFs, etc)
