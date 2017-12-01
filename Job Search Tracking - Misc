@@ -21,11 +21,12 @@ Entities:
 	Job (end goal)
 	
 Data model:
-	Since all objects are tied to the job, each of the main objects has a M-1 relationship with the job
+	Since all objects are tied to the job, each of the main objects has a M-1 relationship with the job.
 	Objects are also interrelated: 
-	Conversation or Interview may involve more than one person - Conversation/Interview to Person - 1-M
-	Companies - user might have interviewed with the company multiple times Comnapy to Interview - 1-M
-	
+	Conversation or Interview may involve more than one person - Conversation/Interview to Person - 1-M.
+	Companies - user might have interviewed with the company multiple times Company to Interview - 1-M.
+	Applications/Submissions - recruiters always ask if candidate has another active submission to the target company; 
+	Company to Submission - 1-M. A recent (<1yr old) submission would preclude a new submission.
 	
 Job Search Process:
 	Workflow consisting of steps and substeps (multiple levels of steps)
