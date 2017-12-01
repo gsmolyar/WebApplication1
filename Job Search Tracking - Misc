@@ -1,6 +1,8 @@
 Concepts:
 	Wheel model - Job is the hub; other objects are spokes
 	Star model - Job is the center; other objects are star's endpoints
+	All objects are tied to the job and are viewed in the context of the job, 
+	i.e. elements relevant to, related to, helping to obtain the main prize - the end goal - the job.
 	
 Entities:
 	Emails (Sent, Received)
@@ -14,6 +16,9 @@ Entities:
   	Companies
 	Offers
 	Job (end goal)
+	
+Data model:
+	Since all objects are tied to the job, each of the main objects has a M-1 relationship with the job
 
 Job Search Process:
 	Workflow consisting of steps and substeps (multiple levels of steps)
