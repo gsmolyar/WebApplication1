@@ -25,7 +25,9 @@ Job Search Process:
 	Each step contains (refers to) one or more entities which can be marked as "crucial" for the step
 	Traversal of crucial steps can provide a big picture view of job search process
 	Process has states: Initial, 1st Interview, 2nd Interview, ... Nth Interview, Offer, Negotiation, Acceptance of position
-	No two job searches are the same
+	No two job searches are the same; the workflow is NOT predefined.
+	The workflow is a chain of activities: receive an email, call back, do the interview.
+	The workflow can be simply a chronological seqenc
 
 
 Entity Details (Logical Schema):
