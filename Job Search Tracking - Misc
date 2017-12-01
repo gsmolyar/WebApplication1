@@ -3,9 +3,11 @@ Concepts:
 	Star metafor - Job is the center; other objects are star's endpoints.
 	Solar system metaphor - Job is the sun; other objects are the planets.
 	
-	All objects are tied to the job and are viewed in the context of the job, 
+	Normally, All objects are tied to the job and are viewed in the context of the job, 
 	i.e. elements relevant to, related to, helping to obtain the main prize - the end goal - the job.
-	
+	Sometimes elements are independent of a specific job and can be tracked as such - 
+	various preliminary conversations with recruiters, contacts, etc. 
+		
 Entities:
 	Emails (Sent, Received)
 	Email Attachments (document repository - MS-Office, images, PDFs, etc)
@@ -28,7 +30,7 @@ Data model:
 	Applications/Submissions - recruiters always ask if candidate has another active submission to the target company; 
 	Company to Submission - 1-M. A recent (<1yr old) submission would preclude a new submission.
 	
-Job Search Process:
+Job Search Process model:
 	Workflow consisting of steps and substeps (multiple levels of steps)
 	Each step contains (refers to) one or more entities which can be marked as "crucial" for the step
 	Traversal of crucial steps can provide a big picture view of job search process
@@ -37,7 +39,7 @@ Job Search Process:
 	The workflow is a chain of activities: receive an email, call back, do the interview.
 	The workflow can be simply a chronological sequence of various elements which get tied to the job opening.
 	Introduction and capturing of the job opening starts the group of interconnected entities.
-	General conversation which are not necessarily tied to a job may be tracked as well
+	General conversation which are not necessarily tied to a job may be tracked as well; track comms with recruiters, contacts, etc.
 
 
 Entity Details (Logical Schema):
