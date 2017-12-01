@@ -35,7 +35,9 @@ Job Search Process:
 	Process has states: Initial, 1st Interview, 2nd Interview, ... Nth Interview, Offer, Negotiation, Acceptance of position
 	No two job searches are the same; the workflow is NOT predefined.
 	The workflow is a chain of activities: receive an email, call back, do the interview.
-	The workflow can be simply a chronological seqenc
+	The workflow can be simply a chronological sequence of various elements which get tied to the job opening.
+	Introduction and capturing of the job opening starts the group of interconnected entities.
+	General conversation which are not necessarily tied to a job may be tracked as well
 
 
 Entity Details (Logical Schema):
